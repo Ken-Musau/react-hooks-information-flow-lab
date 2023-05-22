@@ -17,6 +17,8 @@ function Item({ name, category }) {
       >
         {isInCart ? "Remove From" : "Add to"} Cart
       </button>
+      
+
     </li>
   );
 }
